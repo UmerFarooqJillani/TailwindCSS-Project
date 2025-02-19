@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@theme {
+    --breakpoint-mlg: 60rem;    /*customized breakpoint: 960px - width */
+}
+@layer utilities {
+    .clip-path-custom {
+        clip-path: polygon(50% 100%, 100% 0, 0 0);
+    }
+}
