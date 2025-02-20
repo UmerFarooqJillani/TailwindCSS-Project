@@ -723,6 +723,12 @@
   .mx-6 {
     margin-inline: calc(var(--spacing) * 6);
   }
+  .mx-7 {
+    margin-inline: calc(var(--spacing) * 7);
+  }
+  .mx-8 {
+    margin-inline: calc(var(--spacing) * 8);
+  }
   .mx-12 {
     margin-inline: calc(var(--spacing) * 12);
   }
@@ -2974,6 +2980,11 @@
   .lg\:float-start {
     @media (width >= 64rem) {
       float: inline-start;
+    }
+  }
+  .lg\:mx-7 {
+    @media (width >= 64rem) {
+      margin-inline: calc(var(--spacing) * 7);
     }
   }
   .lg\:mx-12 {
