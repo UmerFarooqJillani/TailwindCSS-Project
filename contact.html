@@ -1,11 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="shortcut icon" href="src/favicon.ico" type="image/x-icon" />
+    <title>On Time Courier &#8211; Logistic Tracking Company</title>
+    <link rel="stylesheet" href="./output.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
 </head>
+
 <body>
-    
+    <nav class="bg-[#1F425D] min-h-28 block content-center mlg:hidden"> <!-- (mini-devices (mobile & tabs)) -->
+        <section class="hidden md:block bg-[#EFEFEF] h-10 content-center">
+            <!-- First Layer -->
+            <p class="text-sm mx-5 px-5">Opening Time : <span class="text-[#FFB400] font-bold">Working Time : 08:00AM -
+                    9:00PM</span>
+            </p>
+        </section>
+        <section class="hidden md:flex bg-black text-white h-20 justify-evenly content-center items-center">
+            <!-- second Layer -->
+            <div class="Left group w-[30%] flex gap-7">
+                <!-- left block -->
+                <i class="ri-phone-fill text-3xl group-hover:text-[#f7f6f5a8]"></i>
+                <div class="">
+                    <p class="">954-462-1006</p>
+                    <p class="text-[#FFB400]">London's Office</p>
+                </div>
+            </div>
+            <div class="right group w-[40%] flex gap-7">
+                <!-- right block  -->
+                <i class="ri-mail-send-fill text-3xl group-hover:text-[#f7f6f5a8]"></i>
+                <a href="#" class="">contact@ontimecourier.co.uk</a>
+            </div>
+        </section>
+        <section class="align-middle flex justify-between items-center flex-wrap mx-5">
+            <!-- third/menu Layer-->
+            <img src="src/images/Icon.png" class=" w-28 h-24" alt="Icon">
+            <a href="#" class="bg-black w-10 h-10 block items-center text-center"><i
+                    class="ri-menu-3-line text-white font-bold text-2xl hover:text-[#FFB400]"></i></a>
+        </section>
+    </nav>
+    <nav class="hidden mlg:block"> <!-- (large-devices(Laptop) Top layer) -->
+        <section
+            class="flex bg-white justify-between h-20 font-bold items-center text-[#535050f0] text-sm px-10 2xl:px-20">
+            <!-- First Layer  -->
+            <p class=""><i class="ri-time-line text-[#FFB400]"></i>&nbsp;Working Time : 08:00AM - 11:00PM</p>
+            <div class="group font-bold flex gap-5 w-40% ">
+                <i class="ri-mail-send-fill text-3xl group-hover:text-[#FFB400]"></i>
+                <p class="">
+                    <a href="#" class="hover:text-[#FFB400]">info@ontimecourier.co.uk</a><br>
+                    Customer Service: <a class="text-[#FFB400]" href="#">02080048011</a> <br>
+                    Availability Hours: <span class="text-[#FFB400]">9:00am to 5:00pm</a>
+                        <span class="text-[#535050f0]">(Monday to Friday)</span> <br>
+                </p>
+            </div>
+        </section>
+    </nav>
+    <nav class="hidden bg-[#1F425D] min-h-28 content-center mlg:block sticky top-0 xl:px-7 2xl:px-14">
+        <!-- (large-devices(Laptop)) -->
+        <section class="align-middle flex justify-between items-center flex-wrap mx-2">
+            <!-- second Layer -->
+            <img src="src/images/Icon.png" alt="Icon">
+            <ul class="text-white flex gap-4 xl:gap-16 font-bold text-lg bg-[#1F425D] justify-center">
+                <li><a href="index.html" class="hover:text-[#FFB400]">Home</a></li>
+                <li><a href="OrderTracking.html" class="hover:text-[#FFB400]">Order Tracking</a></li>
+                <li><a href="about.html" class="hover:text-[#FFB400]">About Us</a></li>
+                <li><a href="#" class="hover:text-[#FFB400]">Contact</a></li>
+            </ul>
+            <div class="flex gap-3 text-white 2xl:gap-7">
+                <p class="content-center"><a href="#" class="hover:text-[#FFB400]">Support</a> &nbsp;/&nbsp; <a href="#"
+                        class="hover:text-[#FFB400]">Sign In</a></p>
+                <label for="search" class="rounded-md bg-[#faf9f9cd]">
+                    <input class="h-9 xl:h-10 outline-none w-52 px-4 text-black text-sm" type="search"
+                        placeholder="Search" name="search">
+                    <button
+                        class="h-9 xl:h-10 w-10 text-[15px] bg-[#1F425D] text-white rounded-md border border-white"><i
+                            class="ri-search-line"></i></button>
+                </label>
+            </div>
+        </section>
+    </nav>
+    <main>
+        <section class="bg-[#333333] text-white text-center py-14 shadow-md shadow-black">
+            <p class="text-sm mb-2">Perfect for Any Business</p>
+            <h1 class="text-3xl font-bold uppercase">Contact Us</h1>
+        </section><br>
+        <section class="mx-5 md:mx-8 mlg:mx-20 lg:mx-28 xl:mx-36 2xl:mx-80">
+            <h1 class="text-3xl font-semibold text-[#000000b0]">GET IN TOUCH</h1>
+            <p class="text-[#000000b0] my-5">Fill The Form Bellow. And Get In Touch Immediately</p>
+            <form action="" class="text-[#000000b0]  space-y-5">
+                <input class="bg-[#79797919] rounded-sm text-sm px-5 py-4 outline-none w-full" type="text" placeholder="Complete Name">
+                <input class="bg-[#79797919] rounded-sm text-sm px-5 py-4 outline-none w-full md:w-[49%] md:float-left" type="email" placeholder="Email Address">
+                <input class="bg-[#79797919] rounded-sm text-sm px-5 py-4 outline-none w-full md:w-[49%] md:float-right" type="text" placeholder="Subject">
+                <textarea class="bg-[#79797919] rounded-sm text-sm px-5 py-4 outline-none resize-none w-full" rows="7"></textarea>
+            </form>
+            <button class="text-white bg-[#1F425D] my-7 w-40 uppercase rounded-sm py-4 text-sm cursor-pointer font-semibold"><i class="ri-send-plane-fill"></i>&nbsp;contant Now</button>
+        </section>
+    </main>
+    <!-- Footer Section -->
+    <footer class="bg-[url(./src/images/back-ground.jpg)] bg-fixed bg-cover bg-center bg-no-repeat">
+        <section class="Upper bg-[#292121d6] text-[#ffffffd4] grid grid-cols-1 gap-10 pt-16 md:grid-cols-2 md:pt-0 md:pl-7 xl:grid-cols-4 xl:gap-2 xl:px-8">
+            <div class="px-5 md:order-1 md:pt-10">
+                <img src="src/images/Icon.png" alt="Icon">
+                <p class="mt-6">OnTimeCourier was launched in 2009 in response to increased demand for a convenient,
+                    flexible and
+                    affordable consumer delivery solution. OnTimeCourier is now one of the leading online delivery
+                    solutions for anyone wanting to send a parcel.</p>
+            </div>
+            <div class="px-5 md:order-4 xl:order-2 xl:pt-20 xl:pl-10">
+                <p class="text-[#FFB400] text-xs font-semibold">Fast And Safe</p>
+                <h2 class="text-white my-3 font-semibold text-xl">USEFUL LINKS</h2>
+                <ul class="text-sm flex flex-col gap-3">
+                    <li><a href="index.html" class="hover:text-[#FFB400]"><i
+                                class="ri-arrow-right-s-fill"></i>&nbsp;Home</a></li>
+                    <li><a href="OrderTracking.html" class="hover:text-[#FFB400]"><i class="ri-arrow-right-s-fill"></i>&nbsp;Order Tracking</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="px-5 md:order-3 md:pb-8 md:items-center xl:order-3 xl:pt-20">
+                <p class="text-[#FFB400] text-xs font-semibold">Fast And Safe</p>
+                <h2 class="text-white my-3 font-semibold text-xl">SERVICES</h2>
+                <ul class="text-sm flex flex-col gap-3 md:grid md:grid-cols-2 xl:block">
+                    <li><a href="about.html" class="hover:text-[#FFB400]"><i class="ri-arrow-right-s-fill"></i>&nbsp;About Us</a>
+                    </li>
+                    <li><a href="#" class="hover:text-[#FFB400]"><i class="ri-arrow-right-s-fill"></i>&nbsp;Contact</a>
+                    </li>
+                    <li><a href="#" class="hover:text-[#FFB400]"><i class="ri-arrow-right-s-fill"></i>&nbsp;Terms &
+                            Conditions</a></li>
+                    <li><a href="#" class="hover:text-[#FFB400]"><i class="ri-arrow-right-s-fill"></i>&nbsp;Privacy
+                            Policy</a></li>
+                </ul>
+            </div>
+            <div class="bg-[#273c4ca0] text-center px-5 py-10 pb-20 text-white md:order-2 xl:order-4">
+                <p class="text-[#FFB400] text-xs font-semibold">Fast And Safe</p>
+                <h2 class="my-3 text-2xl">NEWSLETTER SUBSCRIBE</h2>
+                <p class="">OnTimeCourier is now one of the leading online delivery solutions for anyone wanting to send
+                    a
+                    parcel.</p>
+                <input type="email"
+                    class="my-4 bg-white text-[#000000c7] pl-8 pr-16 py-4 rounded-md outline-none text-sm"
+                    placeholder="Enter Your Email Address"><br>
+                <button
+                    class="bg-[#FFB400] my-4 py-4 text-sm px-8 font-semibold rounded-sm hover:bg-transparent hover:border-2 hover:py-[14px] hover:px-[30px] hover:text-[#FFB400] hover:border-[#FFB400]"><i
+                        class="ri-send-plane-fill"></i>&nbsp;SUBMIT NOW</button>
+            </div>
+        </section>
+        <section class="Bottom bg-[#2a201f] text-center text-white grid grid-cols-1 gap-10 text-sm p-6">
+            <p class="text-xs">&copy; - All Rights Reserved - Made By <span class="text-[#FFB400]">OnTimeCourier</span></p>
+            <ul class="flex flex-wrap gap-6 justify-center">
+                <li><a href="index.html" class="hover:text-[#FFB400]">Home</a></li>
+                <li><a href="OrderTracking.html" class="hover:text-[#FFB400]">Order Tracking</a></li>
+                <li><a href="#" class="hover:text-[#FFB400]">Contact</a></li>
+                <li><a href="about.html" class="hover:text-[#FFB400]">About Us</a></li>
+                <li><a href="#" class="hover:text-[#FFB400]">Terms & Conditions</a></li>
+            </ul>
+            <p>Privacy Policy</p>
+        </section>
+    </footer>
 </body>
+
 </html>
